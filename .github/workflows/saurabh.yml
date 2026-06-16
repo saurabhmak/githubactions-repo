@@ -9,9 +9,9 @@ jobs:
   job-1:
     runs-on: ubuntu-latest
     steps:
-      -  name: Checkout Code
-         uses: actions/version@v6
+      - name: Checkout Code
+        uses: actions/version@v6
 
-      -  name: Print Hello
-         run: echo "Hello from Linux VM"
+      - name: Print Hello
+        run: echo "Hello from Linux VM"
      
