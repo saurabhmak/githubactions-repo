@@ -1,0 +1,17 @@
+name: First Pipeline
+
+on:
+  push: 
+     branches: [main]
+  workflow_dispatch:
+
+jobs:
+  job-1:
+    runs-on: ubuntu-latest
+    steps:
+      -  name: Checkout Code
+         uses: actions/version@v4
+
+      -  name: Print Hello
+         uses: echo "Hello from Linux VM"
+     
