@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -  name: Checkout Code
-         uses: actions/version@v4
+         uses: actions/version@v6
 
       -  name: Print Hello
-         uses: echo "Hello from Linux VM"
+         run: echo "Hello from Linux VM"
      
